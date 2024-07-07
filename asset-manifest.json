@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Travel-With-Us/static/css/main.02e02f0e.css",
-    "main.js": "/Travel-With-Us/static/js/main.0524b356.js",
+    "main.js": "/Travel-With-Us/static/js/main.b4800cb8.js",
     "static/media/hero.png": "/Travel-With-Us/static/media/hero.ab4ba3e53640b8212b39.png",
     "static/media/japann.png": "/Travel-With-Us/static/media/japann.689ce201bd3e079d4475.png",
     "static/media/fam.png": "/Travel-With-Us/static/media/fam.a06199ec6d7ddb4b4795.png",
@@ -39,10 +39,10 @@
     "static/media/tori.png": "/Travel-With-Us/static/media/tori.7265ff1cd8672b5f833e.png",
     "index.html": "/Travel-With-Us/index.html",
     "main.02e02f0e.css.map": "/Travel-With-Us/static/css/main.02e02f0e.css.map",
-    "main.0524b356.js.map": "/Travel-With-Us/static/js/main.0524b356.js.map"
+    "main.b4800cb8.js.map": "/Travel-With-Us/static/js/main.b4800cb8.js.map"
   },
   "entrypoints": [
     "static/css/main.02e02f0e.css",
-    "static/js/main.0524b356.js"
+    "static/js/main.b4800cb8.js"
   ]
 }
