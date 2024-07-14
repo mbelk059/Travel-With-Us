@@ -537,6 +537,10 @@ header .sign-in-btn {
     color: var(--textColour);
 }
 
+.footerSection li:hover{
+    cursor: pointer;
+}
+
 .footerSection p {
     font-size: 1rem;
     color: var(--blackColour);
@@ -544,39 +548,6 @@ header .sign-in-btn {
 
 .footerSection p:hover{
     cursor: pointer;
-}
-
-// en and fr buttons
-.language-switcher {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.language-button {
-  background-color: #f0f0f0;
-  border: none;
-  color: #333;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 1px 3px;
-  cursor: pointer;
-  border-radius: 20px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.language-button:hover {
-  background-color: #e0e0e0;
-}
-
-.language-button.active {
-  background-color: #ea6c46;
-  color: white;
 }
 
 /* Responsive adjustments */
@@ -604,4 +575,3 @@ header .sign-in-btn {
         grid-template-columns: 1fr;
     }
 }
-

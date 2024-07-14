@@ -8,25 +8,16 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { SiTripadvisor } from 'react-icons/si';
 import { BsListTask } from 'react-icons/bs';
 import { TbApps } from 'react-icons/tb';
-import { FaUsers } from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const Home = () => {
   const [showMoreFilters, setShowMoreFilters] = useState(false);
   const [price, setPrice] = useState(5000);
-  const [currentDate, setCurrentDate] = useState('');
 
   // scroll animation
   useEffect(() => {
     Aos.init({ duration: 1500 });
-
-    // Set the current date in YYYY-MM-DD format
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    setCurrentDate(`${year}-${month}-${day}`);
   }, []);
 
   const handleToggleFilters = () => {
@@ -57,7 +48,7 @@ const Home = () => {
           <div className="dateInput">
             <label htmlFor="date">Select your date:</label>
             <div className="input flex">
-              <input type="date" min={currentDate} />
+              <input type="date" />
             </div>
           </div>
 
@@ -87,14 +78,7 @@ const Home = () => {
               <div className="numTravelers">
                 <label htmlFor="numTravelers">Number of travelers:</label>
                 <div className="input flex">
-                  <input
-                    type="number"
-                    id="numTravelers"
-                    min="1"
-                    max="10"
-                    placeholder="Max 10"
-                  />
-                  <FaUsers className="icon" />
+                  <input type="number" id="numTravelers" min="1" max="10" placeholder="Number of travelers" />
                 </div>
               </div>
               <button className="searchButton">Search</button>
